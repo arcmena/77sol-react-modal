@@ -1,1 +1,3 @@
-# 77sol React Modal with Material-UI
+# React Modal Example
+
+React Modal example using Material-UI library.
