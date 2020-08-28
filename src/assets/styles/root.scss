@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 80%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  @import "./main/colors";
+  @import "./components/button";
+  @import "./components/modal";
+
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: $background;
+
+    font-family: Roboto;
+  }
+}
